@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D910BBC21C481AE500406536 /* InstructionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910BBC11C481AE500406536 /* InstructionController.swift */; };
+		D910BBC51C48308C00406536 /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBC41C48308C00406536 /* 1 */; };
+		D910BBCB1C48321F00406536 /* 2 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBC61C48321F00406536 /* 2 */; };
+		D910BBCC1C48321F00406536 /* 3 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBC71C48321F00406536 /* 3 */; };
+		D910BBCD1C48321F00406536 /* 4 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBC81C48321F00406536 /* 4 */; };
+		D910BBCE1C48321F00406536 /* 5 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBC91C48321F00406536 /* 5 */; };
+		D910BBCF1C48321F00406536 /* 6 in Resources */ = {isa = PBXBuildFile; fileRef = D910BBCA1C48321F00406536 /* 6 */; };
+		D910BBD11C484F6200406536 /* winController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910BBD01C484F6200406536 /* winController.swift */; };
 		D9E6E5031C46A0ED00AD8F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6E5021C46A0ED00AD8F44 /* AppDelegate.swift */; };
 		D9E6E5051C46A0ED00AD8F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6E5041C46A0ED00AD8F44 /* ViewController.swift */; };
 		D9E6E5081C46A0ED00AD8F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E6E5061C46A0ED00AD8F44 /* Main.storyboard */; };
 		D9E6E50A1C46A0ED00AD8F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E6E5091C46A0ED00AD8F44 /* Assets.xcassets */; };
 		D9E6E50D1C46A0ED00AD8F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E6E50B1C46A0ED00AD8F44 /* LaunchScreen.storyboard */; };
+		D9E6E53D1C4750DE00AD8F44 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6E53C1C4750DE00AD8F44 /* SettingsController.swift */; };
+		D9E6E53F1C47602E00AD8F44 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6E53E1C47602E00AD8F44 /* GameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D910BBC11C481AE500406536 /* InstructionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionController.swift; sourceTree = "<group>"; };
+		D910BBC41C48308C00406536 /* 1 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1; path = ../../../../Pictures/1; sourceTree = "<group>"; };
+		D910BBC61C48321F00406536 /* 2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2; path = ../../../../Pictures/2; sourceTree = "<group>"; };
+		D910BBC71C48321F00406536 /* 3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3; path = ../../../../Pictures/3; sourceTree = "<group>"; };
+		D910BBC81C48321F00406536 /* 4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4; path = ../../../../Pictures/4; sourceTree = "<group>"; };
+		D910BBC91C48321F00406536 /* 5 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 5; path = ../../../../Pictures/5; sourceTree = "<group>"; };
+		D910BBCA1C48321F00406536 /* 6 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 6; path = ../../../../Pictures/6; sourceTree = "<group>"; };
+		D910BBD01C484F6200406536 /* winController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = winController.swift; sourceTree = "<group>"; };
 		D9E6E4FF1C46A0ED00AD8F44 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E6E5021C46A0ED00AD8F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E6E5041C46A0ED00AD8F44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,9 @@
 		D9E6E5091C46A0ED00AD8F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E6E50C1C46A0ED00AD8F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9E6E50E1C46A0ED00AD8F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E6E5361C46CEFD00AD8F44 /* Dice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9E6E53C1C4750DE00AD8F44 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		D9E6E53E1C47602E00AD8F44 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +75,23 @@
 		D9E6E5011C46A0ED00AD8F44 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				D910BBC61C48321F00406536 /* 2 */,
+				D910BBC71C48321F00406536 /* 3 */,
+				D910BBC81C48321F00406536 /* 4 */,
+				D910BBC91C48321F00406536 /* 5 */,
+				D910BBCA1C48321F00406536 /* 6 */,
+				D910BBC41C48308C00406536 /* 1 */,
 				D9E6E5021C46A0ED00AD8F44 /* AppDelegate.swift */,
 				D9E6E5041C46A0ED00AD8F44 /* ViewController.swift */,
+				D9E6E53C1C4750DE00AD8F44 /* SettingsController.swift */,
+				D9E6E53E1C47602E00AD8F44 /* GameController.swift */,
+				D910BBD01C484F6200406536 /* winController.swift */,
 				D9E6E5061C46A0ED00AD8F44 /* Main.storyboard */,
+				D910BBC11C481AE500406536 /* InstructionController.swift */,
 				D9E6E5091C46A0ED00AD8F44 /* Assets.xcassets */,
 				D9E6E50B1C46A0ED00AD8F44 /* LaunchScreen.storyboard */,
 				D9E6E50E1C46A0ED00AD8F44 /* Info.plist */,
+				D9E6E5361C46CEFD00AD8F44 /* Dice-Bridging-Header.h */,
 			);
 			path = Dice;
 			sourceTree = "<group>";
@@ -124,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E6E50D1C46A0ED00AD8F44 /* LaunchScreen.storyboard in Resources */,
+				D910BBCD1C48321F00406536 /* 4 in Resources */,
+				D910BBC51C48308C00406536 /* 1 in Resources */,
+				D910BBCF1C48321F00406536 /* 6 in Resources */,
+				D910BBCB1C48321F00406536 /* 2 in Resources */,
+				D910BBCC1C48321F00406536 /* 3 in Resources */,
+				D910BBCE1C48321F00406536 /* 5 in Resources */,
 				D9E6E50A1C46A0ED00AD8F44 /* Assets.xcassets in Resources */,
 				D9E6E5081C46A0ED00AD8F44 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E6E53D1C4750DE00AD8F44 /* SettingsController.swift in Sources */,
+				D9E6E53F1C47602E00AD8F44 /* GameController.swift in Sources */,
 				D9E6E5051C46A0ED00AD8F44 /* ViewController.swift in Sources */,
+				D910BBC21C481AE500406536 /* InstructionController.swift in Sources */,
+				D910BBD11C484F6200406536 /* winController.swift in Sources */,
 				D9E6E5031C46A0ED00AD8F44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.builditloveit.Dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dice/Dice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -261,10 +306,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.builditloveit.Dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dice/Dice-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +334,7 @@
 				D9E6E5131C46A0ED00AD8F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
